@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+display: flex;
+text-align: center;
+justify-content: center;
+}
+h1{
+margin-top: 30px;
+font-size: 40px;
+font-style: italic;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(247, 195, 118);
+}
+span{
+
+    color: rgb(95, 233, 107);
+}
+input{
+
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: none;
+    border: 2px solid rgb(6, 107, 107);
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button{
+width: 70px;
+height: 30px;
+border: 2px solid rgb(6, 107, 107);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 15px;
+font-weight: bold;
+cursor: pointer;
+}
+.forbuttonandinput{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+
+}
+ul{
+margin-top: 30px;
+list-style-type: none;
+padding: 0;
+}
+li{
+margin: 5px 0;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: rgb(32, 73, 99);
+border-radius: 30PX;
+color: white;
+}
+.DeleteTask{
+background-color: rgb(125, 91, 26);
+color: white;
+border: none;
+
+border-radius: 10PX;
+
+cursor: pointer;
+}
+.container{
+
+width: 400px;
+
+}
+@media only screen and (max-width:600px) {
+ /* body{
+background-color: red;
+
+ }    */
+
+h1{
+    font-size: 20px;
+}ul{
+    margin-top: 30px;
+    list-style-type: none;
+    padding: 0;
+    }
+    input{
+
+        padding-left: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        outline: none;
+        border: 2px solid rgb(6, 107, 107);
+        height: 20px;
+        font-size: 15px;
+        cursor: pointer;
+        width: 150px;
+    }
+    button{
+    width: 70px;
+    height: 20px;
+    border: 2px solid rgb(6, 107, 107);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    
+    li{
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(32, 99, 99);
+    border-radius: 30PX;
+    color: white;
+    }
+    .DeleteTask{
+    background-color: rgb(125, 91, 26);
+    color: white;
+    border: none;
+    
+    border-radius: 10PX;
+    
+    cursor: pointer;
+    }
+    .forbuttonandinput{
+
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 5px;
+    
+    }
+}
